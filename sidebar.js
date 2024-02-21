@@ -11,7 +11,7 @@ document.writeln("			");
 document.writeln("			");
 document.writeln("              <article class=\"card mb-4\">");
 document.writeln("                <div class=\"card-image\">");
-document.writeln("                  <div class=\"post-info\"> <span class=\"text-uppercase\">关于我</span>");
+document.writeln("                  <div class=\"post-info\"> <span class=\"text-uppercase\">MAKINO STREAM</span>");
 document.writeln("                  </div>");
 document.writeln("                  <img loading=\"lazy\" decoding=\"async\" src=\"images/author.png\" alt=\"Post Thumbnail\" class=\"w-100\">");
 document.writeln("                </div>");
