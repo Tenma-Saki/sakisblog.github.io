@@ -1,6 +1,3 @@
-document.writeln("	<meta name=\'viewport\' content=\'width=device-width, initial-scale=1, maximum-scale=5\'>");
-document.writeln("	<meta name=\'description\' content=\'田麻小溪的博客\'>");
-document.writeln("	<meta name=\'author\' content=\'田麻小溪\'>");
 document.writeln("	<link rel=\'shortcut icon\' href=\'images/favicon.ico\' type=\'image/x-icon\'>");
 document.writeln("	<link rel=\'icon\' href=\'images/favicon.ico\' type=\'image/x-icon\'>");
 document.writeln("  ");
