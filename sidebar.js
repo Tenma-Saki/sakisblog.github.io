@@ -34,7 +34,7 @@ document.writeln("                </div>");
 document.writeln("              </a>");
 document.writeln("			  ");
 document.writeln("			  <a class=\'media align-items-center\' href=\'leond.html\'>");
-document.writeln("                <img loading=\'lazy\' decoding=\'async\' src=\'images/leoneed.png\' alt=\'Post Thumbnail\' class=\'w-100\'>");
+document.writeln("                <img loading=\'lazy\' decoding=\'async\' src=\'images/leond.png\' alt=\'Post Thumbnail\' class=\'w-100\'>");
 document.writeln("                <div class=\'media-body ml-3\'>");
 document.writeln("                  <h3 style=\'margin-top:-5px\'>[LEOND]招新贴</h3>");
 document.writeln("                  <p class=\'mb-0 small\'>战舰世界亚服工会[LEOND]Leo/need欢迎您的加入</p>");
