@@ -41,6 +41,14 @@ document.writeln("                  <p class=\"mb-0 small\">战舰世界亚服�
 document.writeln("                </div>");
 document.writeln("              </a>");
 document.writeln("			  ");
+document.writeln("			  <a class=\"media align-items-center\" href=\"MC_classroom_sekai.html\">");
+document.writeln("                <img loading=\"lazy\" decoding=\"async\" src=\"images/post/mc/sekai/sekai_topper.png\" alt=\"Post Thumbnail\" class=\"w-100\">");
+document.writeln("                <div class=\"media-body ml-3\">");
+document.writeln("                  <h3 style=\"margin-top:-5px\">MC服务器 - Classroom SEKAI</h3>");
+document.writeln("                  <p class=\"mb-0 small\">欢迎你来mc服务器游玩</p>");
+document.writeln("                </div>");
+document.writeln("              </a>");
+document.writeln("			  ");
 document.writeln("			  ");
 document.writeln("            </div>");
 document.writeln("          </div>");
