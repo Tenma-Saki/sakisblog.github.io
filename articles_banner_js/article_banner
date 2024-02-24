@@ -1,0 +1,26 @@
+<article class="card article-card">
+
+    <a href="文章.html">
+        <div class="card-image">
+            <div class="post-info">
+				<span class="text-uppercase">时间</span>
+                <span class="text-uppercase">版本</span>
+            </div>
+             <img loading="lazy" decoding="async" src="images/post/banner.png" alt="Post Thumbnail" class="w-100">
+        </div>
+	</a>
+    
+	<div class="card-body px-0 pb-1">
+        <ul class="post-meta mb-2">
+			<li> 
+				<a href="#!">标签</a>
+            </li>
+        </ul>
+        <h2 class="h1"><a class="post-title" href="文章.html">标题</a></h2>
+        <p class="card-text">文章简介</p>
+        <div class="content">
+			<a class="read-more-btn" href="文章.html">阅读全文</a>
+        </div>
+    </div>
+	
+</article>
