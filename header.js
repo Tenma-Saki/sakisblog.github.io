@@ -2,9 +2,10 @@ document.writeln("	<link rel=\'shortcut icon\' href=\'images/favicon.ico\' type=
 document.writeln("	<link rel=\'icon\' href=\'images/favicon.ico\' type=\'image/x-icon\'>");
 document.writeln("  ");
 document.writeln("	<!-- # Google Fonts -->");
-document.writeln("	<link rel=\'preconnect\' href=\'https://fonts.googleapis.com\'>");
-document.writeln("	<link rel=\'preconnect\' href=\'https://fonts.gstatic.com\' crossorigin>");
-document.writeln("	<link href=\'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap\' rel=\'stylesheet\'>");
+//document.writeln("	<link rel=\'preconnect\' href=\'https://fonts.googleapis.com\'>");
+//document.writeln("	<link rel=\'preconnect\' href=\'https://fonts.gstatic.com\' crossorigin>");
+//document.writeln("	<link href=\'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap\' rel=\'stylesheet\'>");
+document.writeln("	<link href=\'https://fonts.font.im/css2?family=Noto+Sans+SC:wght@100..900&display=swap\' rel=\'stylesheet\'>");
 document.writeln("	");
 document.writeln("	<!-- # CSS Plugins -->");
 document.writeln("	<link rel=\'stylesheet\' href=\'plugins/bootstrap/bootstrap.min.css\'>");
