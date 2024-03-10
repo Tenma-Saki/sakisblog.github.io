@@ -14,7 +14,7 @@ document.writeln("					  <a href=\"#!\">战舰世界</a>");
 document.writeln("                      <a href=\"#!\">新船唠嗑</a>");
 document.writeln("                    </li>");
 document.writeln("                  </ul>");
-document.writeln("                  <h2 class=\"h1\"><a class=\"post-title\" href=\"Comment_kommisar.html\">三栖纸船 - 科米萨尔评测</a></h2>");
+document.writeln("                  <h2 class=\"h1\"><a class=\"post-title\" href=\"Comment_kommisar.html\">蟹黄汤包 - 科米萨尔评测</a></h2>");
 document.writeln("                  <p class=\"card-text\"><b>! 文章内容暂未公开 !</b></p>");
 document.writeln("                  <div class=\"content\"> <a class=\"read-more-btn\" href=\"Comment_kommisar.html\">阅读全文</a>");
 document.writeln("                  </div>");
