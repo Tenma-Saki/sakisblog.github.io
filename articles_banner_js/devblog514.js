@@ -13,7 +13,6 @@ document.writeln("                    <li> ");
 document.writeln("					  <a href=\"#!\">战舰世界</a>");
 document.writeln("                      <a href=\"#!\">开发者日志</a>");
 document.writeln("					  <a href=\"#!\">平衡性调整</a>");
-document.writeln("					  <a href=\"#!\"><b>最新最热</b></a>");
 document.writeln("                    </li>");
 document.writeln("                  </ul>");
 document.writeln("                  <h2 class=\"h1\"><a class=\"post-title\" href=\"devblog514.html\">测试船改动 - 封测13.2</a></h2>");
