@@ -3,7 +3,7 @@ document.writeln("");
 document.writeln("    <a href=\'#\'>");
 document.writeln("        <div class=\'card-image\'>");
 document.writeln("            <div class=\'post-info\'>");
-document.writeln("				<span class=\'text-uppercase\'>2024/3/10</span>");
+document.writeln("				<span class=\'text-uppercase\'>WORK IN PROGRESS</span>");
 document.writeln("            </div>");
 document.writeln("             <img loading=\'lazy\' decoding=\'async\' src=\'images/work_in_progress.png\' alt=\'Post Thumbnail\' class=\'w-100\'>");
 document.writeln("        </div>");
