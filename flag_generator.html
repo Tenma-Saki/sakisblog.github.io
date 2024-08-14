@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+	<meta name="description" content="田麻小溪的博客 - Sakii's Blog">
+	<meta name="keywords" content="田麻小溪, 博客, 战舰世界, PJSK">
+	<title>Flag | Sakii's Blog</title>
+	<script type="text/javascript" src="header.js"></script>
+	<script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+
+<main>
+	<section class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 ">
+					<div class="breadcrumbs mb-4"> <a href="index.html">主页</a>
+						<span class="mx-1">/</span>  <a href="about.html">Flag</a>
+					</div>
+				</div>
+				<div class="col-lg-8 mx-auto mb-5 mb-lg-0">
+					<!--img loading="lazy" decoding="async" src="images/about_banner.png" class="img-fluid w-100 mb-4" alt="Author Image"-->
+					<h1 class="mb-4">Momoi Airi Collection - Flag生成</h1>
+					<div class="content">
+						<form id="calc_flag_form" onsubmit="return calc_flag()">
+							<input type="text" name="sdk_line" id="sdk_line" placeholder="数独左上至右下的九个数字" value="" /><br/>
+							<input type="text" name="qq_id" id="qq_id" placeholder="你的QQ号" value="" /><br/>
+							<!--input type="submit" value="生成Flag" /-->
+							<button type="button" onclick='calc_flag()'>生成Flag</button>
+							<br/>
+							<p id="res"></p>
+						</form>
+					</div>
+				</div>
+		<script type="text/javascript" src="sidebar.js"></script>
+    </div>
+  </div>
+  </section>
+</main>
+
+<script type="text/javascript" src="footer.js"></script>
+<script>
+function calc_flag()
+{
+	var sdk_line = document.getElementById("sdk_line");
+	var qq_id = document.getElementById("qq_id");
+	var res = "\nflag{" + md5(sdk_line.value,qq_id.value) + "}\n\n复制上面这一行，@爱莉并发送即可提交！\n(请使用上面的QQ号提交，不然不会成功)"
+	document.getElementById("res").innerText = res;
+}
+</script>
+
+</html>
