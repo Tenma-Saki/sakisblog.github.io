@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+	<meta name="description" content="田麻小溪的博客 - Sakii's Blog">
+	<meta name="keywords" content="田麻小溪, 博客, 战舰世界, PJSK">
+	<title>如何搭建多功能QQ群机器人 - Momoi Airi | Sakii's Blog</title>
+	<script type="text/javascript" src="header.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js"></script>
+
+<main>
+	<section class="section">
+		<div class="container">
+			<div class="row">
+			<div class="col-12">
+					<div class="breadcrumbs mb-4"> <a href="index.html">主页</a>
+						<span class="mx-1">/</span>  <a href="#">文章详情</a>
+					</div>
+			</div>
+				<div class="col-lg-8 mb-5 mb-lg-0">
+					<article>
+						<img loading="lazy" decoding="async" src="images/post/airirobo/airirobo_banner.png" alt="Post Thumbnail" class="w-100">
+						<ul class="post-meta mb-2 mt-4">
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="margin-right:5px;margin-top:-4px" class="text-dark" viewBox="0 0 16 16">
+									<path d="M5.5 10.5A.5.5 0 0 1 6 10h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z" />
+									<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
+									<path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z" />
+								</svg> <span>更新于 2025/12/9</span>
+							</li>
+						</ul>
+						<h1 class="my-3">如何搭建多功能QQ群机器人 - Momoi Airi</h1>
+						<ul class="post-meta mb-4">
+							<li> <a href="#">其他</a>
+							</li>
+						</ul>
+						<div class="content text-left">
+							<h3>用途展示：</h3>
+							<img loading="lazy" decoding="async" height="400" width="200" src="images/post/airirobo/eg1.png" alt="示例1">
+							<img loading="lazy" decoding="async" height="400" width="200" src="images/post/airirobo/eg2.png" alt="示例2">
+							<img loading="lazy" decoding="async" height="400" width="200" src="images/post/airirobo/eg4.png" alt="示例4">
+							<img loading="lazy" decoding="async" height="400" width="200" src="images/post/airirobo/eg3.png" alt="示例3">
+							<h3>机器人包含以下插件：</h3>
+							<ul>
+
+<h6>----- 音游类综合查询 -----</h6>
+<li>PJSK综合查询 By NagiHina_haruki</li>
+
+<h6>----- 战舰世界综合查询 -----</h6>
+<li>yuyuko：窝窝屎水表查询 By 西行寺雨季，本心</li>
+<li>kokomi：窝窝屎水表查询 By Maoyu，田麻小溪</li>
+
+<h6>----- 棋类游戏 -----</h6>
+<li>五子棋，黑白棋，围棋</li>
+<li>中国象棋</li>
+
+<h6>----- 娱乐功能 -----</h6>
+<li>签到+收藏小游戏 By 田麻小溪</li>
+<li>airi心愿瓶：漂流瓶plus By 田麻小溪</li>								
+<li>测测你的今日运势</li>
+<li>塔罗牌占卜 By MinatoAquaCrews</li>
+<li>随即抓取群友做老婆 By glamorgan9826</li>
+<li>今天吃什么 By Cvandia</li>
+<li>点歌插件 By MeetWq</li>
+<li>表情包制作 By MeetWq</li>
+<li>PJSK贴纸制作 By lgc-NB2Dev</li>
+<li>烤倍率/pt计算器</li>							
+<li>emoji合成</li>
+
+<h6>----- 基础插件 -----</h6>
+<li>B站解析插件</li>
+<li>显示帮助消息</li>
+
+							</ul>
+							<p style="color:#000; font-weight:bold">※ 上述内容为功能介绍，非指令列表，群内发送"帮助"或者"help"获取详细的指令列表</p>
+							<h2>搭建流程：</h2>
+							<ol>
+								<li>准备一个小号，一台24h运行的设备或者云服务器。</li>
+								<li>搭建napcat（自行百度）。</li>
+								<li>反向WebSocket链接： ws://1.14.160.210:31900/onebot/v11/ws</li>
+								<li>开用！</li>
+							</ol>
+							<h2>搭建须知：</h2>
+							<ul>
+								<li>airi为同人性质bot，公益服务，不会以任何理由收费或者拉赞助，且与游戏《初音未来：缤纷舞台》、朝夕光年、字节跳动等无直接联系。
+									<p style="color:#F00; font-weight:bold">严禁主动给airi及主人以任何形式的资助、打赏，这些行为将被视为对机器人运营方针的不配合。</p>
+									<p style="color:#F00; font-weight:bold">严禁冒充airi管理员（airi没有另外请管理员）、拉群中间人等身份，借由主人的名义对外收费、索要赞助，这些行为严重损害airi以及主人的名誉，发现一起追责一起。</p>
+									<p style="color:#F00; font-weight:bold">严禁将一切有关airi的信息发送至任何由《初音未来：缤纷舞台》、朝夕光年、字节跳动等版权方直接运营的自媒体平台、社交账号、群聊、论坛等。</p>
+									<p style="color:#000; font-weight:bold">发现发现违反上述约定的情况，会直接断联拉黑处理，恕不提醒。</p>
+								</li>
+								<li>上述反链不包含haruki，haruki请自行百度搭建。</li>
+								<li>airi不对任何qq号可能存在的安全隐患负责。</li>
+								<li>airi不带去重功能，请勿在一群挂多个airi。</li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			<script type="text/javascript" src="sidebar.js"></script>
+			</div>
+		</div>
+	</section>
+</main>
+
+<script type="text/javascript" src="footer.js"></script>
+
+</html>
