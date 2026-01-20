@@ -3,7 +3,7 @@ document.writeln("  <div class=\'container section\'>");
 document.writeln("    <div class=\'row\'>");
 document.writeln("      <div class=\'col-lg-10 mx-auto text-center\'>");
 document.writeln("        <a class=\'d-inline-block mb-4 pb-2\' href=\'index.html\'>");
-document.writeln("          <img loading=\'prelaod\' decoding=\'async\' class=\'img-fluid\' src=\'images/logo-white.png\' alt=\'Reporter Hugo\'>");
+document.writeln("          <img loading=\'prelaod\' decoding=\'async\' class=\'img-fluid\' src=\'https://gh-proxy.org/https://raw.githubusercontent.com/Tenma-Saki/sakisblog.github.io/refs/heads/main/images/logo-white.png\' alt=\'Reporter Hugo\'>");
 document.writeln("        </a>");
 document.writeln("        <ul class=\'p-0 d-flex navbar-footer mb-0 list-unstyled\'>");
 document.writeln("          <li class=\'nav-item my-0\'> <a class=\'nav-link\' href=\'about.html\'>关于我</a></li>");
