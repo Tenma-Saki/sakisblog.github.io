@@ -25,6 +25,7 @@ document.write("                <\/div>");
 document.write("              <\/article>");
 document.write("			  ");
 document.write("			  ");
+/*
 document.write("              <a class=\"media align-items-center\" href=\"airirobo.html\">");
 document.write("                <img loading=\"lazy\" decoding=\"async\" src=\"https:\/\/gh-proxy.org\/https:\/\/raw.githubusercontent.com\/Tenma-Saki\/sakisblog.github.io\/refs\/heads\/main\/images\/post\/airirobo\/airirobo.png\" alt=\"Post Thumbnail\" class=\"w-100\">");
 document.write("                <div class=\"media-body ml-3\">");
@@ -33,6 +34,7 @@ document.write("                  <p class=\"mb-0 small\">包含签到收藏、�
 document.write("                <\/div>");
 document.write("              <\/a>");
 document.write("			  ");
+*/
 document.write("            <\/div>");
 document.write("          <\/div>");
 document.write("        <\/div>");
