@@ -1,5 +1,5 @@
-document.writeln("	<link rel=\'shortcut icon\' href=\'images/favicon.ico\' type=\'image/x-icon\'>");
-document.writeln("	<link rel=\'icon\' href=\'images/favicon.ico\' type=\'image/x-icon\'>");
+document.writeln("	<link rel=\'shortcut icon\' href=\'ihttps://gh-proxy.org/https://raw.githubusercontent.com/Tenma-Saki/sakisblog.github.io/refs/heads/main/images/favicon.ico\' type=\'image/x-icon\'>");
+document.writeln("	<link rel=\'icon\' href=\'https://gh-proxy.org/https://raw.githubusercontent.com/Tenma-Saki/sakisblog.github.io/refs/heads/main/images/favicon.ico\' type=\'image/x-icon\'>");
 document.writeln("  ");
 document.writeln("	<!-- # Google Fonts -->");
 //document.writeln("	<link rel=\'preconnect\' href=\'https://fonts.googleapis.com\'>");
@@ -20,7 +20,7 @@ document.writeln("<header class=\'navigation\'>");
 document.writeln("  <div class=\'container\'>");
 document.writeln("    <nav class=\'navbar navbar-expand-lg navbar-light px-0\'>");
 document.writeln("      <a class=\'navbar-brand order-1 py-0\' href=\'index.html\'>");
-document.writeln("        <img loading=\'prelaod\' decoding=\'async\' class=\'img-fluid\' src=\'images/logo.png\' alt=\'Reporter Hugo\'>");
+document.writeln("        <img loading=\'prelaod\' decoding=\'async\' class=\'img-fluid\' src=\'https://gh-proxy.org/https://raw.githubusercontent.com/Tenma-Saki/sakisblog.github.io/refs/heads/main/images/logo.png\' alt=\'Reporter Hugo\'>");
 document.writeln("      </a>");
 document.writeln("      <div class=\'navbar-actions order-3 ml-0 ml-md-4\'>");
 document.writeln("        <button aria-label=\'navbar toggler\' class=\'navbar-toggler border-0\' type=\'button\' data-toggle=\'collapse\'");
